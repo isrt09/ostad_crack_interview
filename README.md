@@ -15,5 +15,17 @@ You are given a string s and an integer array indices of the same length. The st
 
 <p>Also, mention the Time and Space Complexity of your solution</p>
 
+<h3>Constraints:</h3>
+
+s.length == indices.length == n
+
+1 <= n <= 100
+
+s consists of only lowercase English letters.
+
+0 <= indices[i] < n
+
+All values of indices are unique.
+
 
   
