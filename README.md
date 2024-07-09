@@ -4,6 +4,7 @@
   <li>Array, Map, two Pointers Technique, Set</li>
   <li>Codemama : Practice Code Test on Array</li>
   <li>Problem solving on Array</li>
+  <li>Assignment on Array</li>
   <Li>Quiz on Array</Li>  
 </ol>
 
