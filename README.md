@@ -28,5 +28,13 @@ s consists of only lowercase English letters.
 
 All values of indices are unique.
 
+<h3>Task 2: </h3>
+<p>Write a function that does the following task.</p>
+<p>Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.</p>
+<p>Also, mention the Time and Space Complexity of your solution</p>
 
+<h3>Constraints:</h3>
+
+<p>1 <= haystack.length, needle.length <= 10^4</p>
+<p>haystack and needle consist of only lowercase English characters.</p>
   
