@@ -9,7 +9,8 @@
 </ol>
 
 ### Assignment on String
-<h3>Task 1: Write a function that does the following task</h3>
+<h3>Task 1: </h3>
+<p>Write a function that does the following task</p>
 <p>
 You are given a string s and an integer array indices of the same length. The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string. Return the shuffled string.</p>
 
