@@ -17,3 +17,9 @@ function isPalindrome(s) {
 console.log(isPalindrome("madam"));  // Output: true
 console.log(isPalindrome("adam"));   // Output: true
 console.log(isPalindrome("tenet"));  // Output: false
+
+Time Complexity:
+The time complexity of this recursive solution is O(n), where n is the length of the string s. This is because the function checks each character of the string once in each recursive call until the base case is reached.
+
+Space Complexity:
+The space complexity is O(n) as well. This is due to the recursion stack space used by the function calls. In the worst case, the recursion depth could go up to n/2, as we are slicing off the first and last characters in each recursive call.
