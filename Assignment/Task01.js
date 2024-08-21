@@ -52,3 +52,9 @@ let reversedHead = reverseList(head);
 let reversedArray = linkedListToArray(reversedHead);
 
 console.log(reversedArray); // Output: [5, 4, 3, 2, 1]
+
+Complexity Analysis:
+
+Time Complexity: O(N), where N is the number of nodes in the linked list. Each node is processed exactly once.
+
+Space Complexity: O(1). The reversal is done in-place, so no additional space is required other than a few pointers.
