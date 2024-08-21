@@ -64,3 +64,9 @@ let mergedHead = mergeTwoLists(list1, list2);
 let mergedArray = linkedListToArray(mergedHead);
 
 console.log(mergedArray); // Output: [1, 1, 2, 3, 4, 4]
+
+Complexity Analysis:
+
+Time Complexity: O(N+M), where N and M are the lengths of the two linked lists. Each node is processed exactly once.
+
+Space Complexity: O(1). The merging is done in-place without using extra space for additional data structures.
