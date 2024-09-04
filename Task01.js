@@ -45,3 +45,9 @@ const nums2 = [3,2,3,1,2,4,5,5,6], k2 = 4;
 
 console.log(findKthLargest(nums1, k1)); // Output: 5
 console.log(findKthLargest(nums2, k2)); // Output: 4
+
+// Space & Time Complexity:
+
+A heap is a binary tree where the parent nodes follow a specific order relative to their children. For a Min-Heap, the smallest element is always at the root. This property allows us to efficiently keep track of the k largest elements with a space complexity of O(k)
+
+Building the heap takes O(n) time and each insertion and deletion operation takes O(logk) time. Since we're maintaining a heap of size k, the time complexity for inserting all elements into the heap is O(nlogk), which is efficient given the constraints.
