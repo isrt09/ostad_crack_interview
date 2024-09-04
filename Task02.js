@@ -26,3 +26,9 @@ const nums2 = [2, 5, 6];
 const n = 3;
 merge(nums1, m, nums2, n);
 console.log(nums1); // Output: [1, 2, 2, 3, 5, 6]
+
+// Time Complexity: 
+O(m+n), where m and n are the lengths of nums1 and nums2, respectively. This is because each element is processed exactly once.
+
+// Space Complexity: 
+O(1) because we are using a constant amount of extra space (only pointers), and merging is done in-place.
