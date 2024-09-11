@@ -35,3 +35,8 @@ function findMin(nums) {
 // Test Output Result
 const nums = [11,13,15,17]
 console.log(findMin(nums))
+
+// Space & Time Complexity
+To find the minimum element in a sorted and rotated array with a time complexity of O(log n), we can use a modified version of binary search.
+
+
