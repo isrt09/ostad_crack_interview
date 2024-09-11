@@ -22,5 +22,5 @@ const nums = [-1,0,3,5,9,12], target = 9
 console.log(binarySearch(nums,target))
 
 // Space & Time complexity.
-To achieve a time complexity of O(log n) for searching a target in a sorted array, you should use the binary search algorithm. Binary search works efficiently on sorted arrays by repeatedly dividing the search interval in half.
+To achieve a time complexity of O(log n) for searching a target in a sorted array, we should use the binary search algorithm. Binary search works efficiently on sorted arrays by repeatedly dividing the search interval in half.
 This binary search function efficiently finds the target in a sorted array, ensuring that the search operation runs in O(log n) time complexity.
